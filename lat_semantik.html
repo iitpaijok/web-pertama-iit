@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="contoh halaman wab mengunakan halaman wab HTML Semantik">
+    <title>Halaman Web Semantik iit_paijok jual beli</title>
+    <link rel="stylesheet" href="lat_semantik.css">
+</head>
+
+<body>
+    <header>
+        <h1>Selamat Datang di iit_paijok wabsite</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#services">Layanan</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <section id="home">
+                <h2>Selamat datang di situs terpercaya iit_paijok</h2>
+                <p>Ini adalah halaman utama website kami. Kami menyediakan berbagai informasi dan layanan yang tidak bermanfaat.</p>
+                <p>moto kami adalah "anda puas kami senang"</p>
+            </section>
+
+            <section id="Abaut">
+                <h2>Abaut Us</h2>
+                <p>Kami adalah tim pengembang wabsite yang abal abal dalam membangun situs jadul yang tidak responsif.</p>
+            </section>
+
+            <section id="services">
+                <h2>kami siap melayani anda</h2>
+                <div class="product">
+                    <img src="c:\Users\iitpa\OneDrive\图片\Gambar_Mia_Khalifa.jpeg" alt="mia khalifah">
+                    <h3>mia khalifah</h3>
+                    <p>Harga: Rp 350.000</p>
+                    <button onclick="addToCart(1)">Beli</button>
+                    
+                </div>
+                <div class="product">
+                    <img src="c:\Users\iitpa\OneDrive\图片\9a04fcbd-3e21-4ab9-8e98-e146cad10137_169.jpeg" alt="Produk 2">
+                    <h3>sugiono</h3>
+                    <p>Harga: Rp 1800.000</p>
+                    <button onclick="addToCart(2)">Beli</button>
+                </div>
+                <div class="product">
+                    <img src="c:\Users\iitpa\OneDrive\图片\ariel tatu.jpeg" alt="Produk 3">
+                    <h3>ariel tatum</h3>
+                    <p>Harga: Rp 630.000</p>
+                    <button onclick="addToCart(3)">Beli</button>
+                </div>
+                <div class="product">
+                    <img src="c:\Users\iitpa\OneDrive\文档\lucinta luna.jpg" alt="Produk 4">
+                    <h3>lucinta luna</h3>
+                    <p>Harga: Rp 400.000</p>
+                    <button onclick="addToCart(4)">Beli</button>
+                </div>
+                <div class="product">
+                    <img src="c:\Users\iitpa\OneDrive\图片\nikita mirzani.jpg" alt="Produk 5">
+                    <h3>nikita mirzani</h3>
+                    <p>Harga: Rp 500.000</p>
+                    <button onclick="addToCart(5)">Beli</button>
+                </div>
+                <div class="product">
+                    <img src="c:\Users\iitpa\OneDrive\图片\jeje.jpg" alt="Produk 6">
+                    <h3>jeje</h3>
+                    <p>Harga: Rp 250.000</p>
+                    <button onclick="addToCart(6)">Beli</button>
+                </div>
+
+            </section>
+
+            <section id="cart">
+                <h2>Keranjang Belanja</h2>
+                <!-- Isi keranjang akan ditampilkan di sini -->
+            </section>
+        </article>
+        
+        <aside>
+            <div class="container">
+                <h3>Formulir pendaftaran</h3>
+                <form id="identityForm">
+                    <label for="name">Nama Lengkap:</label>
+                    <input type="text" id="name" name="name" required>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="phone">Nomor Telepon:</label>
+                    <input type="tel" id="phone" name="phone" required>
+        
+                    <label for="birthdate">Tanggal Lahir:</label>
+                    <input type="date" id="birthdate" name="birthdate" required>
+        
+                    <label for="gender">jenis klamin:</label>
+                    <select id="gender" name="gender" required>
+                        <option value="">Pilih</option>
+                        <option value="Laki-laki">pria sejati</option>
+                        <option value="Perempuan">wanita pembohong</option>
+                    </select>
+        
+                    <button type="submit">Kirim</button>
+                </form>
+        
+                <div id="result"></div>
+
+                <script src="lat_semantik.js"></script>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 iit_paijok. Semua hak punya iit.</p>
+    </footer>
+</body>
+</html>
